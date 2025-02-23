@@ -6,6 +6,7 @@
 
 # Summary
 
+The goal of this lab is to learn how to use operational amplifiers (Op Amps) to build and analyze various signal conditioning circuits. We constructed and tested multiple configurations using an LM741 Op Amp, including a unity gain inverting circuit, moderate and high gain inverting amplifiers, a voltage follower, and both integrating and differentiating circuits. We used a function generator, digital multimeter, and oscilloscope to measure key parameters such as gain, voltage limits, and frequency response. First, we varied the input voltage in the unity gain circuit to observe the saturation points and verify the expected behavior. Next, we built moderate and high gain configurations to compare measured gains with theoretical predictions, noting slight discrepancies due to component tolerances and experimental limitations. Finally, we explored frequency response with a voltage follower and examined the mathematical operations of integration and differentiation on various waveforms. By the end of the lab, we had a better understanding of op amp performance, including practical limitations in gain and output voltage swing, as well as the importance of accurate component measurements in achieving reliable circuit behavior. Most measured values were within expected ranges, confirming the effectiveness of the LM741 in these applications.
 
 # Materials
 
