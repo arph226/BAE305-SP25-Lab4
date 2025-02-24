@@ -33,11 +33,17 @@ After verifying the resistor values, we proceeded to construct the unity gain in
 
 ![image](https://github.com/user-attachments/assets/6185be82-3aab-4372-a025-f6e5277a7627)
 
+![image](https://github.com/user-attachments/assets/236b8c2d-8f7e-43d6-9ae2-aefb05901ef2)
+
+
 After taking measurements of Circuit 1, as detailed in the Test Procedures section of this lab report, we built the moderate gain inverting op amp circuit shown below in Figures 2.1 and 2.2. 
 
 ![image](https://github.com/user-attachments/assets/78fe7f31-def2-4097-b7f1-6aee8bf423c4)
 
 Shown also in Figure 2.2 is how we connected the oscilloscope. To create two waves, we plugged two oscilloscope probes. Both probes had their ground leads connected to ground via the resistor in the ground row, which is being used like a wire in this circumstance. The signal lead of one probe was attached to the Vin side of the 8.2kOhm resistor. The signal lead of the other probe was attached the the Vout side of the 330 kOhm resistor.
+
+![image](https://github.com/user-attachments/assets/a9d4a963-5dd3-4d05-9750-131b95c64250)
+
 
 After taking measurements of Circuit 2, described in the Test Procedures, we built the high-gain inverting op amp circuit, seen in Figure 3.1 below. The change involved only the resistors, which we switched out for 1kOhm and 1.5MOhm resistors. Measurements of Circuit 3 were taken following the build, see Test Procedures below.
 
@@ -47,15 +53,18 @@ After taking measurements of Circuit 2, described in the Test Procedures, we bui
 
 We began this section by building a voltage follower, seen below in Figure 4.1. Going from the previous circuit, this required us to simply replace the 1kOhm resistor with a 68kOhm one, replace the 1.5 MOhm resistor with a wire, and disconnect the op amp from ground.
 
-![image](https://github.com/user-attachments/assets/57bd67e6-f1af-410f-93e0-d7aed469f7d0)
+![image](https://github.com/user-attachments/assets/57bd67e6-f1af-410f-93e0-d7aed469f7d0) 
 
-Following measurements of this Circuit 4, outlined in the Test Procedures, we built an integrating op amp circuit. This is seen below in Figures 5.1 and 5.2.
+Following measurements of this Circuit 4, outlined in the Test Procedures, we built an integrating op amp circuit. This is seen below in Figure 5.1. 
 
 ![image](https://github.com/user-attachments/assets/92a684cf-5c13-4265-abb9-5d773debd935)
 
-Measurements of Circuit 5 were taken, further described in the Test Procedures, and then we built a differentiating op amp circuit. This circuit is shown in Figure 6.1 below.
+Measurements of Circuit 5 were taken, further described in the Test Procedures, and then we built a differentiating op amp circuit. This circuit is shown in Figures 6.1 and 6.2 below.
 
 ![image](https://github.com/user-attachments/assets/6bc8e337-9b93-4a02-b055-684fbb1b7dfa)
+
+![image](https://github.com/user-attachments/assets/f5198fe8-8696-4725-b982-2273ee4a1682)
+
 
 # Test Equipment
 1. Two DC Power Supplies
