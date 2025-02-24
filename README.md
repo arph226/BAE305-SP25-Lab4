@@ -22,6 +22,9 @@ The goal of this lab is to learn how to use operational amplifiers (Op Amps) to 
 
 ### Part 1: Limits of Op Amps
 
+Using the Fluke digital multimeter, we measured the actual resistance of the 1 kΩ, 4.7 kΩ, 8.2 kΩ, 22 kΩ, 68 kΩ, 220 kΩ, 330 kΩ and 1.5 MΩ resistors by attaching the multimeter probes to their terminals with alligator clips. The labeled resistance was verified using the resistor color code. After verifying the resistor values, we proceeded to construct the unity gain inverting op amp circuit illustrated in Figure 1.1 and 1.2 below on a standard prototyping breadboard.
+
+
 
 
 ### Part 2 : Op Amps and Frequency Response
