@@ -27,43 +27,50 @@ Using the Fluke digital multimeter, we measured the actual resistance of the 1 k
 This lab revolves around the usage of operational amplifiers, so below is Figure 1.0, a diagram of the 8-pin DIP op amp chips that we used. While building each circuit, we ensured that each component corresponded with the correct pin on the op amp.
 
 ![image](https://github.com/user-attachments/assets/05b03a64-81e7-4f68-b8f2-3b5e9b0a5053)
-
+<p align="left"><em>Figure 1.0: Schematic of 8-pin DIP Operational Amplifier Chip </em></p>
 
 After verifying the resistor values, we proceeded to construct the unity gain inverting op amp circuit illustrated in Figure 1.1 and 1.2. All circuits, including this one, were constructed on a standard prototyping breadboard. Note the 10 kOhm resistor in the schematic is referring to the potentiometer. 
 
 ![image](https://github.com/user-attachments/assets/6185be82-3aab-4372-a025-f6e5277a7627)
+<p align="left"><em>Figure 1.1: Schematic of Circuit 1. A unity gain inverting op amp. </em></p>
 
 ![image](https://github.com/user-attachments/assets/236b8c2d-8f7e-43d6-9ae2-aefb05901ef2)
-
+<p align="left"><em>Figure 1.2: Image of Circuit 1. A unity gain inverting op amp, with a potentiometer being the 10 kOhm resistor. </em></p>
 
 After taking measurements of Circuit 1, as detailed in the Test Procedures section of this lab report, we built the moderate gain inverting op amp circuit shown below in Figures 2.1 and 2.2. 
 
 ![image](https://github.com/user-attachments/assets/78fe7f31-def2-4097-b7f1-6aee8bf423c4)
+<p align="left"><em>Figure 2.1: Schematic of Circuit 2. A moderate gain inverting op amp. </em></p>
 
 Shown also in Figure 2.2 is how we connected the oscilloscope. To create two waves, we plugged two oscilloscope probes. Both probes had their ground leads connected to ground via the resistor in the ground row, which is being used like a wire in this circumstance. The signal lead of one probe was attached to the Vin side of the 8.2kOhm resistor. The signal lead of the other probe was attached the the Vout side of the 330 kOhm resistor.
 
 ![image](https://github.com/user-attachments/assets/a9d4a963-5dd3-4d05-9750-131b95c64250)
-
+<p align="left"><em>Figure 2.1: Image of Circuit 2. A moderate gain inverting op amp and oscilloscope probes connected to Vin and Vout. </em></p>
 
 After taking measurements of Circuit 2, described in the Test Procedures, we built the high-gain inverting op amp circuit, seen in Figure 3.1 below. The change involved only the resistors, which we switched out for 1kOhm and 1.5MOhm resistors. Measurements of Circuit 3 were taken following the build, see Test Procedures below.
 
 ![image](https://github.com/user-attachments/assets/129875c6-a08c-440e-828a-d060bb7763fa)
+<p align="left"><em>Figure 3.1: Schematic of Circuit 3. A high-gain inverting op amp circuit. </em></p>
 
-### Part 2 : Op Amps and Frequency Response
+### Part 2: Op Amps and Frequency Response
 
 We began this section by building a voltage follower, seen below in Figure 4.1. Going from the previous circuit, this required us to simply replace the 1kOhm resistor with a 68kOhm one, replace the 1.5 MOhm resistor with a wire, and disconnect the op amp from ground.
 
 ![image](https://github.com/user-attachments/assets/57bd67e6-f1af-410f-93e0-d7aed469f7d0) 
+<p align="left"><em>Figure 4.1: Schematic of Circuit 4. A voltage follower op amp circuit. </em></p>
 
-Following measurements of this Circuit 4, outlined in the Test Procedures, we built an integrating op amp circuit. This is seen below in Figure 5.1. 
+Following measurements of Circuit 4, outlined in the Test Procedures, we built an integrating op amp circuit. This is seen below in Figure 5.1. 
 
 ![image](https://github.com/user-attachments/assets/92a684cf-5c13-4265-abb9-5d773debd935)
+<p align="left"><em>Figure 5.1: Schematic of Circuit 5. An integrating op amp circuit. </em></p>
 
 Measurements of Circuit 5 were taken, further described in the Test Procedures, and then we built a differentiating op amp circuit. This circuit is shown in Figures 6.1 and 6.2 below.
 
 ![image](https://github.com/user-attachments/assets/6bc8e337-9b93-4a02-b055-684fbb1b7dfa)
+<p align="left"><em>Figure 6.1: Schematic of Circuit 6. A differentiating op amp circuit. </em></p>
 
 ![image](https://github.com/user-attachments/assets/f5198fe8-8696-4725-b982-2273ee4a1682)
+<p align="left"><em>Figure 6.2: Image of Circuit 1. A differentiating op amp circuit. </em></p>
 
 
 # Test Equipment
