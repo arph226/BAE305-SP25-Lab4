@@ -24,7 +24,9 @@ The goal of this lab is to learn how to use operational amplifiers (Op Amps) to 
 
 Using the Fluke digital multimeter, we measured the actual resistance of the 1 kΩ, 4.7 kΩ, 8.2 kΩ, 22 kΩ, 68 kΩ, 220 kΩ, 330 kΩ and 1.5 MΩ resistors by attaching the multimeter probes to their terminals with alligator clips. The labeled resistance was verified using the resistor color code. After verifying the resistor values, we proceeded to construct the unity gain inverting op amp circuit illustrated in Figure 1.1 and 1.2 below on a standard prototyping breadboard.
 
-After taking measurements of Circuit 1, as detailed in the Test Procedures section of this lab report, we built the moderate gain inverting op amp circuit shown below in Figures 2.1 and 2.2. Shown also is how we connected the oscilloscope. To create two waves, we plugged two oscilloscope probes. Both probes had their ground leads connected to ground via the resistor in the ground row, which is being used like a wire in this circumstance. The signal lead of one probe was attached to the Vin side of the 8.2kOhm resistor. The signal lead of the other probe was attafched the the Vout side of the 330 kOhm resistor.
+After taking measurements of Circuit 1, as detailed in the Test Procedures section of this lab report, we built the moderate gain inverting op amp circuit shown below in Figures 2.1 and 2.2. 
+
+Shown also is how we connected the oscilloscope. To create two waves, we plugged two oscilloscope probes. Both probes had their ground leads connected to ground via the resistor in the ground row, which is being used like a wire in this circumstance. The signal lead of one probe was attached to the Vin side of the 8.2kOhm resistor. The signal lead of the other probe was attafched the the Vout side of the 330 kOhm resistor.
 
 After taking measurements of Circuit 2, described in the Test Procedures, we built the high-gain inverting op amp circuit, seen in Figure 3.1 below. The change involved only the resistors, which we switched out for 1kOhm and 1.5MOhm resistors. Measurements of Circuit 3 were taken following the build, see Test Procedures below.
 
