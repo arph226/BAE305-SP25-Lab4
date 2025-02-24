@@ -22,21 +22,40 @@ The goal of this lab is to learn how to use operational amplifiers (Op Amps) to 
 
 ### Part 1: Limits of Op Amps
 
-Using the Fluke digital multimeter, we measured the actual resistance of the 1 kΩ, 4.7 kΩ, 8.2 kΩ, 22 kΩ, 68 kΩ, 220 kΩ, 330 kΩ and 1.5 MΩ resistors by attaching the multimeter probes to their terminals with alligator clips. The labeled resistance was verified using the resistor color code. After verifying the resistor values, we proceeded to construct the unity gain inverting op amp circuit illustrated in Figure 1.1 and 1.2 below on a standard prototyping breadboard.
+Using the Fluke digital multimeter, we measured the actual resistance of the 1 kΩ, 4.7 kΩ, 8.2 kΩ, 22 kΩ, 68 kΩ, 220 kΩ, 330 kΩ and 1.5 MΩ resistors by attaching the multimeter probes to their terminals with alligator clips. The labeled resistance was verified using the resistor color code. 
+
+This lab revolves around the usage of operational amplifiers, so below is Figure 1.0, a diagram of the 8-pin DIP op amp chips that we used. While building each circuit, we ensured that each component corresponded with the correct pin on the op amp.
+
+![image](https://github.com/user-attachments/assets/9f0fa33f-42f8-43e4-b0e8-dd37902ac0a6)
+
+
+After verifying the resistor values, we proceeded to construct the unity gain inverting op amp circuit illustrated in Figure 1.1 and 1.2. All circuits, including this one, were constructed on a standard prototyping breadboard.
+
+![image](https://github.com/user-attachments/assets/d0e15338-57a7-4452-8a2d-546796ff2025)
 
 After taking measurements of Circuit 1, as detailed in the Test Procedures section of this lab report, we built the moderate gain inverting op amp circuit shown below in Figures 2.1 and 2.2. 
 
-Shown also is how we connected the oscilloscope. To create two waves, we plugged two oscilloscope probes. Both probes had their ground leads connected to ground via the resistor in the ground row, which is being used like a wire in this circumstance. The signal lead of one probe was attached to the Vin side of the 8.2kOhm resistor. The signal lead of the other probe was attafched the the Vout side of the 330 kOhm resistor.
+![image](https://github.com/user-attachments/assets/2abb7462-3c7d-4b61-ac6f-abc87fe8ec59)
+
+Shown also in Figure 2.2 is how we connected the oscilloscope. To create two waves, we plugged two oscilloscope probes. Both probes had their ground leads connected to ground via the resistor in the ground row, which is being used like a wire in this circumstance. The signal lead of one probe was attached to the Vin side of the 8.2kOhm resistor. The signal lead of the other probe was attafched the the Vout side of the 330 kOhm resistor.
 
 After taking measurements of Circuit 2, described in the Test Procedures, we built the high-gain inverting op amp circuit, seen in Figure 3.1 below. The change involved only the resistors, which we switched out for 1kOhm and 1.5MOhm resistors. Measurements of Circuit 3 were taken following the build, see Test Procedures below.
 
+![image](https://github.com/user-attachments/assets/4db4593f-8599-411d-9f14-5527de8d4f5a)
 
 ### Part 2 : Op Amps and Frequency Response
 
 We began this section by building a voltage follower, seen below in Figure 4.1. Going from the previous circuit, this required us to simply replace the 1kOhm resistor with a 68kOhm one, replace the 1.5 MOhm resistor with a wire, and disconnect the op amp from ground.
 
-Following measurements of this Circuit 4, outlined in the Test Procedures, we built an integrating op amp circuit. This is seen below in Figures 5.1 and 5.2. Seen also is how we connected the oscilloscope to the circuit. The oscilloscope leads were connected to
+![image](https://github.com/user-attachments/assets/f10a3ca6-9338-4d5f-be54-72dc7ad2674f)
 
+Following measurements of this Circuit 4, outlined in the Test Procedures, we built an integrating op amp circuit. This is seen below in Figures 5.1 and 5.2.
+
+![image](https://github.com/user-attachments/assets/7e8e48ab-f539-4625-bf5e-3d6c1540c478)
+
+Measurements of Circuit 5 were taken, further described in the Test Procedures, and then we built a differentiating op amp circuit. This circuit is shown in Figure 6.1 below.
+
+![image](https://github.com/user-attachments/assets/6f61034e-118b-441b-a431-3666e224b18b)
 
 # Test Equipment
 1. Two DC Power Supplies
@@ -51,7 +70,7 @@ Following measurements of this Circuit 4, outlined in the Test Procedures, we bu
 1. Assemble the inverting amplifier circuit as shown in the lab manual.
 2. Adjust the potentiometer to change input voltage (Vi) from -15V to +15V.
 3. Measure and record output voltage (Vo) for at least nine different input voltages.
-4.  Plot Vo vs. Vi data, comparing experimental values to theoretical expectations.
+4. Plot Vo vs. Vi data, comparing experimental values to theoretical expectations.
 
 ### Step 2: Construct the Moderate Gain Inverting Op Amp Circuit
 1. Assemble the circuit as per Figure 3 in the lab manual.
