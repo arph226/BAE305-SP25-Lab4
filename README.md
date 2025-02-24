@@ -27,9 +27,9 @@ Using the Fluke digital multimeter, we measured the actual resistance of the 1 k
 This lab revolves around the usage of operational amplifiers, so below is Figure 1.0, a diagram of the 8-pin DIP op amp chips that we used. While building each circuit, we ensured that each component corresponded with the correct pin on the op amp.
 
 ![image](https://github.com/user-attachments/assets/05b03a64-81e7-4f68-b8f2-3b5e9b0a5053)
-<p align="left"><em>Figure 1.0: Schematic of 8-pin DIP Operational Amplifier Chip </em></p>
+<p align="left"><em>Figure 1.0: Schematic of 8-pin DIP Operational Amplifier Chip. </em></p>
 
-After verifying the resistor values, we proceeded to construct the unity gain inverting op amp circuit illustrated in Figure 1.1 and 1.2. All circuits, including this one, were constructed on a standard prototyping breadboard. Note the 10 kOhm resistor in the schematic is referring to the potentiometer. 
+After verifying the resistor values, we proceeded to construct the unity gain inverting op amp circuit illustrated in Figure 1.1 and 1.2. All circuits, including this one, were constructed on a standard prototyping breadboard. Note the 10 kOhm resistor in the schematic refers to the potentiometer. 
 
 ![image](https://github.com/user-attachments/assets/6185be82-3aab-4372-a025-f6e5277a7627)
 <p align="left"><em>Figure 1.1: Schematic of Circuit 1. A unity gain inverting op amp. </em></p>
@@ -54,7 +54,7 @@ After taking measurements of Circuit 2, described in the Test Procedures, we bui
 
 ### Part 2: Op Amps and Frequency Response
 
-We began this section by building a voltage follower, seen below in Figure 4.1. Going from the previous circuit, this required us to simply replace the 1kOhm resistor with a 68kOhm one, replace the 1.5 MOhm resistor with a wire, and disconnect the op amp from ground.
+We began this section by building a voltage follower, as seen below in Figure 4.1. Going from the previous circuit, this required us to simply replace the 1kOhm resistor with a 68kOhm one, replace the 1.5 MOhm resistor with a wire, and disconnect the op amp from ground.
 
 ![image](https://github.com/user-attachments/assets/57bd67e6-f1af-410f-93e0-d7aed469f7d0) 
 <p align="left"><em>Figure 4.1: Schematic of Circuit 4. A voltage follower op amp circuit. </em></p>
@@ -102,7 +102,7 @@ Measurements of Circuit 5 were taken, further described in the Test Procedures, 
 4. Measure and record the gain of the circuit.
 5. Compare theoretical vs. experimental gains for each circuit.
 6. Discuss the maximum output voltage limits of Op Amps.
-7. Evaluate symmetry of LM741 Op Amp performance in positive and negative regions.
+7. Evaluate the symmetry of LM741 Op Amp performance in positive and negative regions.
 
 ## Part 2: Op Amps and Frequency Response
 
@@ -160,7 +160,7 @@ Measurements of Circuit 5 were taken, further described in the Test Procedures, 
 
 ### Part 1: Limits of Op Amps
 
-**Vo vs. Vin for an Unity Gain Inverting Op Amp Circuit**  
+**Vo vs. Vin for a Unity Gain Inverting Op Amp Circuit**  
 |Vi  | Vo  | 
 |-------------------|--------------------|
 |-15 |	-0.265 |
@@ -173,7 +173,7 @@ Measurements of Circuit 5 were taken, further described in the Test Procedures, 
 |14	|14.13|
 |15	|14.74|
 
-<p align="left"><em>Table 3: Vo vs. Vi data collected by adjusting the potentiometer to change the input voltage. It is important to note we did not record the actual values for Vin and were unable to set the exact voltage each time. All values were within .1V of the recorded Vin. If we were to repeat the experiement, we would record experimental Vin values. </em></p>
+<p align="left"><em>Table 3: Vo vs. Vi data collected by adjusting the potentiometer to change the input voltage. It is important to note we did not record the actual values for Vin and were unable to set the exact voltage each time. All values were within .1V of the recorded Vin. If we were to repeat the experiment, we would record experimental Vin values. </em></p>
 
 **Gain of a Moderate Gain Op Amp Circuit**
 |  |  Value  | |Value |
