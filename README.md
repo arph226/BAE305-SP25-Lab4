@@ -26,7 +26,7 @@ Using the Fluke digital multimeter, we measured the actual resistance of the 1 k
 
 This lab revolves around the usage of operational amplifiers, so below is Figure 1.0, a diagram of the 8-pin DIP op amp chips that we used. While building each circuit, we ensured that each component corresponded with the correct pin on the op amp.
 
-![image](https://github.com/user-attachments/assets/9f0fa33f-42f8-43e4-b0e8-dd37902ac0a6)
+![image](https://github.com/user-attachments/assets/8b7ca7ff-663d-4bb5-8c7c-a7ddf3b580dd)
 
 
 After verifying the resistor values, we proceeded to construct the unity gain inverting op amp circuit illustrated in Figure 1.1 and 1.2. All circuits, including this one, were constructed on a standard prototyping breadboard.
