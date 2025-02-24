@@ -29,7 +29,7 @@ This lab revolves around the usage of operational amplifiers, so below is Figure
 ![image](https://github.com/user-attachments/assets/05b03a64-81e7-4f68-b8f2-3b5e9b0a5053)
 
 
-After verifying the resistor values, we proceeded to construct the unity gain inverting op amp circuit illustrated in Figure 1.1 and 1.2. All circuits, including this one, were constructed on a standard prototyping breadboard.
+After verifying the resistor values, we proceeded to construct the unity gain inverting op amp circuit illustrated in Figure 1.1 and 1.2. All circuits, including this one, were constructed on a standard prototyping breadboard. Note the 10 kOhm resistor in the schematic is referring to the potentiometer. 
 
 ![image](https://github.com/user-attachments/assets/6185be82-3aab-4372-a025-f6e5277a7627)
 
