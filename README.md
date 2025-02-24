@@ -41,21 +41,21 @@ Shown also in Figure 2.2 is how we connected the oscilloscope. To create two wav
 
 After taking measurements of Circuit 2, described in the Test Procedures, we built the high-gain inverting op amp circuit, seen in Figure 3.1 below. The change involved only the resistors, which we switched out for 1kOhm and 1.5MOhm resistors. Measurements of Circuit 3 were taken following the build, see Test Procedures below.
 
-![image](https://github.com/user-attachments/assets/4db4593f-8599-411d-9f14-5527de8d4f5a)
+![image](https://github.com/user-attachments/assets/129875c6-a08c-440e-828a-d060bb7763fa)
 
 ### Part 2 : Op Amps and Frequency Response
 
 We began this section by building a voltage follower, seen below in Figure 4.1. Going from the previous circuit, this required us to simply replace the 1kOhm resistor with a 68kOhm one, replace the 1.5 MOhm resistor with a wire, and disconnect the op amp from ground.
 
-![image](https://github.com/user-attachments/assets/f10a3ca6-9338-4d5f-be54-72dc7ad2674f)
+![image](https://github.com/user-attachments/assets/57bd67e6-f1af-410f-93e0-d7aed469f7d0)
 
 Following measurements of this Circuit 4, outlined in the Test Procedures, we built an integrating op amp circuit. This is seen below in Figures 5.1 and 5.2.
 
-![image](https://github.com/user-attachments/assets/7e8e48ab-f539-4625-bf5e-3d6c1540c478)
+![image](https://github.com/user-attachments/assets/92a684cf-5c13-4265-abb9-5d773debd935)
 
 Measurements of Circuit 5 were taken, further described in the Test Procedures, and then we built a differentiating op amp circuit. This circuit is shown in Figure 6.1 below.
 
-![image](https://github.com/user-attachments/assets/6f61034e-118b-441b-a431-3666e224b18b)
+![image](https://github.com/user-attachments/assets/6bc8e337-9b93-4a02-b055-684fbb1b7dfa)
 
 # Test Equipment
 1. Two DC Power Supplies
