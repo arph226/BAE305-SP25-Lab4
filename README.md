@@ -42,7 +42,7 @@ After taking measurements of Circuit 1, as detailed in the Test Procedures secti
 ![image](https://github.com/user-attachments/assets/78fe7f31-def2-4097-b7f1-6aee8bf423c4)
 <p align="left"><em>Figure 2.1: Schematic of Circuit 2. A moderate gain inverting op amp. </em></p>
 
-Shown also in Figure 2.2 is how we connected the oscilloscope. To create two waves, we plugged two oscilloscope probes. Both probes had their ground leads connected to ground via the resistor in the ground row, which is being used like a wire in this circumstance. The signal lead of one probe was attached to the Vin side of the 8.2kOhm resistor. The signal lead of the other probe was attached the the Vout side of the 330 kOhm resistor.
+Shown also in Figure 2.2 is how we connected the oscilloscope. To create two waves, we plugged two oscilloscope probes. Both probes had their ground leads connected to ground via the resistor in the ground row, which is being used like a wire in this circumstance. The signal lead of one probe was attached to the Vin side of the 8.2kOhm resistor. The signal lead of the other probe was attached the Vout side of the 330 kOhm resistor.
 
 ![image](https://github.com/user-attachments/assets/a9d4a963-5dd3-4d05-9750-131b95c64250)
 <p align="left"><em>Figure 2.1: Image of Circuit 2. A moderate gain inverting op amp and oscilloscope probes connected to Vin and Vout. </em></p>
