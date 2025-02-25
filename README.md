@@ -239,7 +239,7 @@ Gain should be infinite in an ideal op amp. The gain we saw with the moderate ga
 
 Discussion Question 2: Comment on the limits of op amp circuits with respect to maximum output voltage.
 
-Since op amp circuits are limited by their power supply rails, for the LM741, the maximum output voltage is typically a few volts less than the supply voltages. This means that regardless of the theoretical gain, the output cannot exceed these rail voltages. In reality, as the input signal increases, the op amp will eventually saturate and stall the output when it reaches these limits. Additionally, factors such as internal voltage drops and load conditions can further restrict the maximum output voltage.
+Since op amp circuits are limited by their power supply rails, for the LM741, the maximum output voltage is typically a few volts less than the supply voltages. This means that regardless of the theoretical gain, the output cannot exceed these rail voltages. In reality, as the input signal increases, the op amp will eventually saturate and stall the output when it reaches these limits. Additionally, factors like internal voltage drops and load conditions can further limit the maximum output voltage.
 
 Discussion Question 3: Are the LM741 op amps symmetric i.e. does the positive voltage performance equal the negative voltage performance?
 
