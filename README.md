@@ -251,3 +251,9 @@ Yes, we know the derivative of a sine wave is a cosine wave, a derivative of a t
 
 
 # Conclusion
+
+This lab was focused on the exploration and analysis of operational amplifiers (op amps) in constructing and testing various signal conditioning circuits. We utilized the LM741 op amp and built several configurations, including unity gain inverting, moderate gain inverting, high-gain inverting, voltage follower, integrating, and differentiating circuits. Using a function generator, digital multimeter, and oscilloscope, we measured and compared parameters such as gain, voltage limits, and frequency response. 
+
+Our results indicated that while most circuits performed as expected, some variations between theoretical and experimental values were observed, mainly due to tolerances in component values and experimental limitations. The moderate gain circuits closely matched theoretical predictions, while the high-gain configurations displayed some discrepancies, likely due to equipment issues. The voltage follower circuit exhibited near-unity gain up to a frequency limit of around 8.4 kHz. Finally, the integrating and differentiating circuits successfully performed their intended mathematical operations, such as integration and differentiation, with minor observed deviations. 
+
+By the end of this lab, we gained a deeper understanding of how op amps function in different configurations and the practical limitations these op amps face with respect to gain, voltage output, and frequency range. This hands-on experience reinforced the importance of accurate component measurements and provided insights into real-world applications of op amps.
