@@ -235,10 +235,13 @@ Note: output has low resistance
 
 Discussion Question 1: Compare the performance of each amplifier circuit to its expected theoretical performance regard to gain.
 Gain should be infinite in an ideal op amp. The gain we saw with the moderate gain inverting op amp circuit was around expected theoretical performance.
+
 Discussion Question 2: Comment on the limits of op amp circuits with respect to maximum output voltage.
 Since op amp circuits are limited by their power supply rails, for the LM741, the maximum output voltage is typically a few volts less than the supply voltages. This means that regardless of the theoretical gain, the output cannot exceed these rail voltages. In reality, as the input signal increases, the op amp will eventually saturate and stall the output when it reaches these limits. Additionally, factors such as internal voltage drops and load conditions can further restrict the maximum output voltage.
+
 Discussion Question 3: Are the LM741 op amps symmetric i.e. does the positive voltage performance equal the negative voltage performance?
 Symmetry was observed for the moderate gain inverting op amp, but not the high-gain inverting op amp. This was due to errors in the function generator. Both op amps should be produce symmetric performance.
+
 Discussion Question 4: Did the integrating and differentiating circuits perform the mathematical operations expected?
 Yes, we know the derivative of a sine wave is a cosine wave, a derivative of a triangle wave is a square wave, and the derivative of a square wave is a triangle wave. When we set the function generator to each of these wave types, the other wave reflected the correctly corresponding derivative.
 
