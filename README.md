@@ -208,7 +208,7 @@ NOTE: For all test procedures, positive and negative power voltages were created
 
 <p align="left"><em>Table 6: The measured gain for a voltage follower op amp circuit was calculated from measured Vin and Vo values. It appears the measured gain is close to one, which is expected for a voltage follower in which Vo and Vi should be the same. The output of a voltage follower has very low resistance. When using the function generator, we found the frequency limit to be about 8.4 kHz. </em></p>
 
-Note: output has low resistance
+
 
 **Waveforms for Integration Op Amp Circuit**
 | Sine | Square   | Triangle|
