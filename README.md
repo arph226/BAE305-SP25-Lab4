@@ -152,10 +152,10 @@ NOTE: For all test procedures, positive and negative power voltages were created
 **Capacitor Values Table**  
 |Expected Value  | Measured Value  | Within Tolerance |
 |-------------------|--------------------|--------------|
-|.104 microF |	.104 microF |
-|1 nF	| 1.44 nF|
+|.104 microF |	.104 microF |yes|
+|1 nF	| 1.44 nF|yes|
 
-<p align="left"><em>Table 2: Measured, real values of the capacitors used in the lab. </em></p>
+<p align="left"><em>Table 2: Measured, real values of the capacitors used in the lab. All capacitors are in tolerance. </em></p>
 
 
 ### Part 1: Limits of Op Amps
