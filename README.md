@@ -233,6 +233,8 @@ Note: output has low resistance
 
 # Discussion
 
+We faced some error due to malfunctions with our breadboard and function generator. However, we were still able to reach a general understanding of op amp functionality and possibilities for use in other purposes. Errors were supplemented by clarification from Carlos and research done following the conclusion of the lab. Both contributed to our understanding and the answering of the questions below.
+
 Discussion Question 1: Compare the performance of each amplifier circuit to its expected theoretical performance regard to gain.
 
 Gain should be infinite in an ideal op amp. The gain we saw with the moderate gain inverting op amp circuit was around expected theoretical performance.
