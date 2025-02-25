@@ -81,48 +81,48 @@ Measurements of Circuit 5 were taken, further described in the Test Procedures, 
 
 # Test Procedures
 
+NOTE: For all test procedures, positive and negative power voltages were created by using 2 power supplies. We checked polarity of the power supplies before connecting the op-amps. We also measured all of the resistors and capacitors in the lab to make sure they were in tolerance as shown in Table 1 and 2.
+
 ## Part 1: Limits of Op Amps
 ### Step 1: Construct the Unity Gain Inverting Op Amp Circuit
-1. Assemble the inverting amplifier circuit as shown in the lab manual.
-2. Adjust the potentiometer to change input voltage (Vi) from -15V to +15V.
-3. Measure and record output voltage (Vo) for at least nine different input voltages.
+1. Assemble the inverting amplifier circuit as shown in Figure 1.1. Drive the voltage divider with positive and negative voltage supplies
+2. Adjust the potentiometer to change input voltage (Vi) from -15V to +15V. We did not record exact input values, but it is recommended you do.
+3. We measured and recorded output voltage (Vo) for at least nine different input voltages in the range listed above in Table 3.
 4. Plot Vo vs. Vi data, comparing experimental values to theoretical expectations.
 
 ### Step 2: Construct the Moderate Gain Inverting Op Amp Circuit
-1. Assemble the circuit as per Figure 3 in the lab manual.
+1. Assemble the circuit as per Figure 2.1 and 2.2 in the assembly procedures.
 2. Set the function generator to 100mV and 2 kHz.
 3. Connect the oscilloscope: Channel 1 to Vi, Channel 2 to Vo.
-4. Measure and record Vo, then calculate gain.
-5. Compare measured gain with theoretical gain.
+4. Measure and record Vo and Vin by using the measurment feature on the oscilloscope. We used the measurement tool for more precise values. 
+5. Compare measured gain with theoretical gain calculated with the measured resistance values in Table 4.
 
 ### Step 3: Constructing the High-Gain Inverting Op Amp Circuit
-1. Assemble the circuit as per Figure 4 in the lab manual.
+1. Assemble the circuit as per Figure 3.1 in the assembly procedures.
 2. Set the function generator to 10mV and 2 kHz.
-3. Observe the waveform on the oscilloscope and compare input and output signals.
-4. Measure and record the gain of the circuit.
-5. Compare theoretical vs. experimental gains for each circuit.
-6. Discuss the maximum output voltage limits of Op Amps.
-7. Evaluate the symmetry of LM741 Op Amp performance in positive and negative regions.
+3. Observe the waveform on the oscilloscope with channel 1 connected to Vi and channel 2 to Vo. We compared input and output signals to look at the symmetry of the waveform.
+4. We calculated experimental gain from measured Vo and Vin values using the same process as above and recorded in Table 5
+5. We then compared theoretical vs. experimental gains for each circuit using measured resistance values.
 
 ## Part 2: Op Amps and Frequency Response
 
 ### Step 1: Construct a Voltage Follower
-1. Assemble the voltage follower circuit as per Figure 5.
+1. Assemble the voltage follower circuit as per Figure 4.1.
 2. Set the function generator to 1V amplitude and 2 kHz.
-3. Measure and compare Vi and Vo.
-4. Increase frequency until performance degradation is observed; record the frequency limit.
-5. Estimate the gain of the circuit.
+3. Check to confirm input and output voltage were the same by looking at max measurment values on the oscilloscope
+4. Measure and compare Vi and Vo and calculate gain.
+5. To find the frequency limit we increased frequency until performance degradation is observed and recorded the limit in Table 6
 
 ### Step 2: Construct an Integrating Op Amp Circuit
-1. Assemble the circuit as per Figure 6.
+1. Assemble the circuit as per Figure 5.1.
 2. Set the function generator to 1Vp-p and 4 kHz.
-3. Observe and document output waveforms for sine, square, and triangle wave inputs.
-4. Change voltage and frequency, noting changes in waveform characteristics.
+3. Change the wave forms between sine, square, and triangular. Be sure to take pictures of the waveforms for reference. In order to get a good image we adjusted the sec/div knobs and other values until we created a clear image with both waves in range.
+5. Change voltage and frequency, noting changes in waveform characteristics. Take pictures of the results
 
 ### Step 3: Construct a Differentiating Op Amp Circuit
-1. Assemble the circuit as per Figure 7.
+1. Assemble the circuit as per Figure 6.1 and 6.2.
 2. Set the function generator to 2Vp-p and 1 kHz.
-3. Observe and document output waveforms for sine, square, and triangle wave inputs.
+3. Observe and document output waveforms for sine, square, and triangle wave inputs as described in Step 2.
 4. Change voltage and frequency, noting changes in waveform characteristics.
 5. Did the circuits perform the expected mathematical operations?
 6. Compare experimental output waveforms to theoretical derivatives/integrals.
@@ -173,7 +173,10 @@ Measurements of Circuit 5 were taken, further described in the Test Procedures, 
 |14	|14.13|
 |15	|14.74|
 
-<p align="left"><em>Table 3: Vo vs. Vi data collected by adjusting the potentiometer to change the input voltage. It is important to note we did not record the actual values for Vin and were unable to set the exact voltage each time. All values were within .1V of the recorded Vin. If we were to repeat the experiment, we would record experimental Vin values. </em></p>
+<p align="left"><em>Table 3: Vo vs. Vi data collected by adjusting the potentiometer to change the input voltage. It is important to note we did not record the actual values for Vin and were unable to set the exact voltage each time. All values were within .1V of the recorded Vin. If we were to repeat the experiment, we would record experimental Vin values. As shown, as the input voltage (Vi) increases from -15 to 15, the output voltage (Vo) also increases. This aligns with the expected behavior of an inverting op amp circuit, however, it seems like there are some symmetry issues in the data. According to the gain equation Vo= -(Rf/Rin)Vi, the Vo value should be opposite the Vin value. For example, at Vi=-15V, Vo should be 15V. However, the resistance values are not equal due to tolerance in the resistors, which likely leads to some variation. This would not fully explain the non-symmetric variation, so there could be errors in the circuit's wiring. </em></p>
+
+![image](https://github.com/user-attachments/assets/94a1e020-5850-4cae-a9e7-edd15270782f)
+<p align="left"><em> Graph 1: Vo vs. Vi data collected by adjusting the potentiometer to change the input voltage as outlined in Table 3. As shown, Vo should be the inverse of Vo, however our measured values are slightly skewed which could be due to issues we were experiencing with out breadboard. </em></p>
 
 **Gain of a Moderate Gain Op Amp Circuit**
 |  |  Value  | |Value |
@@ -182,7 +185,7 @@ Measurements of Circuit 5 were taken, further described in the Test Procedures, 
 |Vo |	3.36V |Rf|330 kΩ|
 |Measured Gain (Vo/Vin) |	37.3 |Theoretical Gain (Rf/Rin)|40.24|
 
-<p align="left"><em>Table 4: </em></p>
+<p align="left"><em>Table 4: The measured and theoretical gain for a moderate gain inverting op amp circuit was calculated from measured Vin, Vo, Rin, and Rf values. It appears the experimental gain is slightly lower than the theoretical gain, but the values are still close to one another.</em></p>
 
 **Gain of a High Gain Op Amp Circuit**
 |  |  Value  | |Value |
@@ -191,7 +194,7 @@ Measurements of Circuit 5 were taken, further described in the Test Procedures, 
 |Vo |	3.64V |Rf|1.5 MΩ|
 |Measured Gain (Vo/Vin) |	379 |Theoretical Gain (Rf/Rin)|1500|
 
-<p align="left"><em>Table 5: </em></p>
+<p align="left"><em>Table 5: The measured and theoretical gain for a high-gain inverting op amp circuit was calculated from measured Vin, Vo, Rin, and Rf values. It appears the experimental gain is much lower than the theoretical gain. This is due to issues with our function generator, which created non-symmetrical appearing waves. We were unable to determine the errors occurring in collaboration with Dr. Jarro, so we proceeded to the next step of the lab.</em></p>
 
 ### Part 2: Op Amps and Frequency Response
 
@@ -203,7 +206,7 @@ Measurements of Circuit 5 were taken, further described in the Test Procedures, 
 |Measured Gain (Vo/Vin) |	1.2 |
 |Frequency Limit| 8.4 kHz|
 
-<p align="left"><em>Table 6:  </em></p>
+<p align="left"><em>Table 6: The measured gain for a voltage follower op amp circuit was calculated from measured Vin and Vo values. It appears the measured gain is close to one, which is expected for a voltage follower in which Vo and Vi should be the same. The output of a voltage follower has very low resistance. When using the function generator, we found the frequency limit to be about 8.4 kHz. </em></p>
 
 Note: output has low resistance
 
@@ -212,8 +215,7 @@ Note: output has low resistance
 |-------------------|--------------------|--------------------|
 |![image](https://github.com/user-attachments/assets/7330c0d0-6ddc-4d73-bc8a-2e7ad42ba50a) |![image](https://github.com/user-attachments/assets/74f72ae0-b53b-4423-a9f4-27b591c39cd7)|![image](https://github.com/user-attachments/assets/4662b914-4dd0-418b-91cf-3879ca0d6f7f)|
 
-<p align="left"><em>Table 7:  </em></p>
-
+<p align="left"><em>Table 7: The input and output waveforms for an integrating op amp circuit for 4kHz, 1Vp-p, sine, square, and triangular waves. Integrating op amp circuits produce an output that is the integral of the input. In the images, the input is labeled in yellow, and the output is in blue. As shown in the images, the sine wave input yields a slight phase shifted output, the square wave input yields a slightly more triangular/trapezoidal output, and the triangular input yields a parabolic output. These results are as expected since the output is the integral of the input.  </em></p>
 
 
 
@@ -222,14 +224,15 @@ Note: output has low resistance
 |--------------------|--------------------|
 |![image](https://github.com/user-attachments/assets/903a2aa2-4176-4598-8f80-3a0b3f83622e) | ![image](https://github.com/user-attachments/assets/00a8bee6-1515-4eca-8303-839791280a9b)|
 
-<p align="left"><em>Table 8:  </em></p>
+<p align="left"><em>Table 8: The input and output waveforms for an integrating op amp circuit for 4kHz, 1Vp-p, sine, square, and triangular waves after increasing frequency. As shown in the sine and square waveforms, when frequency increases, the amplitude of the output decreases. Additionally, when the frequency increases for the square wave input, the triangles in the output become steeper, even though the amplitude decreases.  </em></p>
 
 **Waveforms for Differentiating Op Amp Circuit**
 | Sine | Square   | Triangle|
 |-------------------|--------------------|--------------------|
 |![image](https://github.com/user-attachments/assets/992ecd7e-4d28-4c22-b60b-87689031c78e) |![image](https://github.com/user-attachments/assets/0ad94e7c-cd8c-416b-81f8-2749896856eb) |![image](https://github.com/user-attachments/assets/f2be9c05-f5df-41ea-935b-ea1ebeac8a82)|
 
-<p align="left"><em>Table 9:  </em></p>
+<p align="left"><em>Table 9: The input and output waveforms for a differentiating op amp circuit for 1kHz, 2Vp-p, sine, square, and triangular waves. Differentiating op amp circuits produce an output that is the derivative of the input. In the images, the input is labeled in blue, and the output is in yellow. As shown in the images, the sine wave input yields a cosine wave, the square wave input yields a series of sharp peaks, and the triangular input yields a smooth curved waveform. The sine wave input should yield a cosine wave, the square wave should yield a series of sharp spikes, and the triangle wave should yield a square wave. The sine and square waves were as expected, but the triangle wave output was not square. That being said, this could be due to how the op-amp reacts to the change in slope creating a more smooth shape than the expected square. </em></p>
+
 
 # Discussion
 
